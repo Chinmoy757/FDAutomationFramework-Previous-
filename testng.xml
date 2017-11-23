@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><suite allow-return-values="false" configfailurepolicy="skip" data-provider-thread-count="10" group-by-instances="false" guice-stage="DEVELOPMENT" junit="false" name="Suite" parallel="none" preserve-order="true" skipfailedinvocationcounts="false" thread-count="5">
+<parameter name="port" value="4441"/>
+            <parameter name="nodeIp" value="172.16.30.239"/>
+			<parameter name="userName" value="FDUser1"/>
+			
+  <test allow-return-values="false" group-by-instances="false" junit="false" name="Test" preserve-order="true" skipfailedinvocationcounts="false">
+    <classes>
+      <class name="TestNG.TestNG"/>
+    </classes>
+  </test> <!-- Test -->
+</suite><!-- Suite -->
